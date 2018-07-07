@@ -36,6 +36,7 @@ function calculatesFarePrice(start, destination){
   }
   else if (result <= 400){
     result = 0
+    console.log()
   }
   return result
 }
