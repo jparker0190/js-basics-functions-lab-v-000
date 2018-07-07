@@ -16,7 +16,7 @@ function distanceFromHqInFeet(feet){
 }
 function distanceTravelledInFeet(start, end){
   let result
-  if (end > 28){
+  if (end > start){
     result = (end - start) * 264
   }
   else {result = (start - end )*264}
